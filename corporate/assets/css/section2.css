@@ -1,0 +1,60 @@
+.welcome{
+    background-color: #fff;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("/assets/images/pink1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome__subtitle{
+    margin-top: 180px;
+    border: 1px solid red;
+    width: 600px;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    color: #fb8686;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 9%;
+}
+
+.welcome__title{
+    margin-top: 20px;
+    border: 1px solid red;
+    width: 600px;
+    font-family: "Exo", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 9%;
+}
+
+.welcome b{
+    color: #fb8686;
+}
+
+.welcome__text1{
+    margin-top: 40px;
+    border: 1px solid red;
+    width: 585px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    margin-left: 9%;
+    line-height: 25px;
+}
+
+.welcome__text2{
+    margin-top: 40px;
+    margin-bottom: 140px;
+    border: 1px solid red;
+    width: 585px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Myriad Pro", sans-serif;
+    margin-left: 9%;
+}

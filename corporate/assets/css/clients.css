@@ -1,0 +1,58 @@
+.clients{
+    background-image: url("/assets/images/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients__people{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 110px;
+}
+
+.clients__person{
+    width: 320px;
+    text-align: center;
+}
+
+.clients__photo{
+
+}
+
+.clients__name{
+    font-size: 22px;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.clients__job{
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+    color: #fb8686;
+    margin-top: 12px;
+}
+
+.clients__text{
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+    color: #b6b6b7;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.clients__companies{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clients__logo{
+
+}

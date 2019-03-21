@@ -1,0 +1,51 @@
+.description{
+    background-image: url("/assets/images/pink2.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description__image{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+.description b{
+    color: #fb8686;
+}
+
+.description__script{
+    margin-top: 100px;
+}
+
+.description__subtitle{
+    margin-top: 30px;
+    border: 1px solid red;
+    width: 600px;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    color: #fb8686;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.description__title{
+    width: 420px;
+    margin-top: 24px;
+    border: 1px solid red;
+    width: 600px;
+    font-family: "Exo", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.description__text{
+    width: 500px;
+    margin-top: 50px;
+    font-family: "Exo", sans-serif;
+    color: #858584;
+    line-height: 30px;
+}

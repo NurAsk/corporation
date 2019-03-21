@@ -7,9 +7,9 @@ var btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
-    btn.innerHTML = '<i class="fa fa-play-circle"></i><br/>';
+    btn.innerHTML = '<i class="fa fa-pause-circle"></i><br/>';
   } else {
     video.pause();
-    btn.innerHTML = '<i class="fa fa-pause-circle"></i><br/>';
+    btn.innerHTML = '<i class="fa fa-play-circle"></i><br/>';
   }
 }

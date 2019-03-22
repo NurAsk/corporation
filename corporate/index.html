@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Если ты это сам сделал, то ты охеренен! -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,6 +21,7 @@
             <h1 class="header__title">
                 There is no other platforms for you as like 
             </h1>
+            <!-- Рекомендация: Считается плохой практикой писать обработчики событий в атрибуты. Это нарушает концепцию разделения представления (html) от логики (js). Лучше в самом коде находить элемент, например с помощью document.getElementById() и потом добавить обработчик событий с помощью element.addEventListener() -->
             <button class="header__play" onclick="myFunction()" id="myBtn">
                 <i class="fa fa-pause-circle"></i><br/>
             </button>

@@ -1,3 +1,5 @@
+/* Этот файл стоит назвать welcome-section и т.п. Если порядок блока поменяется или мы вообще уберем его, то название section2 не будет ни о чем говорить */
+
 .welcome{
     background-color: #fff;
     display: flex;

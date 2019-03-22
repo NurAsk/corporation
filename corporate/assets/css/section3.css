@@ -21,6 +21,7 @@
     text-align: center;
 }
 
+/* Этот файл стоит назвать features-section и т.п. Если порядок блока поменяется или мы вообще уберем его, то название section2 не будет ни о чем говорить */
 .features__title{
     margin: 0 auto;
     margin-top: 20px;
